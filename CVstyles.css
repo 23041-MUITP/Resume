@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7ffcf; /* Light Yellow-Green */
+    color: #333;
+}
+
+.header-container {
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4caf50; /* Green */
+    text-align: left; /* Align to the left */
+}
+
+h3 {
+    color: #4caf50; /* Green */
+    font-weight: bold;
+    text-align: left; /* Align to the left */
+}
+
+p {
+    font-size: 18px;
+    text-align: left; /* Align to the left */
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+a {
+    color: #4caf50; /* Green */
+    text-decoration: none;
+}
+
+/* Add a class for your photo */
+.photo {
+    max-width: 150px;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #4caf50; /* Green */
+    border-radius: 50%;
+}
+
+/* Style the contact links */
+.contact a {
+    color: #4caf50; /* Green */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Right-aligned sections */
+.right-aligned {
+    text-align: right; /* Align to the right */
+    padding-right: 20px; /* Add padding on the right */
+}
+
+/* Social media icons */
+.social-icons {
+    text-align: right; /* Align to the right */
+    padding-right: 20px; /* Add padding on the right */
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #4caf50; /* Green */
+    text-decoration: none;
+}
+
+/* Add icons for different social media platforms */
+.social-icons .instagram:before {
+    content: url('instagram-icon.png');
+}
+
+.social-icons .linkedin:before {
+    content: url('linkedin-icon.png');
+}
+
+/* Add more social media icons as needed */
